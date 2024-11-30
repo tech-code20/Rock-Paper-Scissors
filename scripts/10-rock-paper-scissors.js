@@ -66,13 +66,13 @@ document.querySelector('.js-scissors-button')
 
 document.body.addEventListener('keydown', (event) => {
   // console.log(event.key);
-  if (event.key === 'r') {
+  if (event.key === 'r' || 'R') {
     playGame('rock');
-  } else if (event.key === 'p') {
+  } else if (event.key === 'p' || 'P') {
     playGame('paper');
-  } else if (event.key === 's') {
+  } else if (event.key === 's' || 'S') {
     playGame('scissors');
-  } else if (event.key === 'a') {
+  } else if (event.key === 'a' || 'A') {
     autoPlay();
   } else if(event.key === 'Backspace') {
     confirmReset();
