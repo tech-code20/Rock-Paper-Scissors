@@ -15,22 +15,8 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 
 updateScoreElement();
 
-/*
-if (!score) {
-  score = {
-    wins: 0,
-    losses: 0,
-    ties: 0
-  };
-}
-*/
-
 let isAutoPlaying = false;
 let intervalId;
-
-//const autoPlay = () => {
-
-//};
 
 const autoPlaybuttonElm = document.querySelector('.auto-play-button');
 function autoPlay() {
@@ -65,7 +51,6 @@ document.querySelector('.js-scissors-button')
   });
 
 document.body.addEventListener('keydown', (event) => {
-  // console.log(event.key);
   if (event.key === 'r' || 'R') {
     playGame('rock');
   } else if (event.key === 'p' || 'P') {
@@ -179,12 +164,4 @@ function resetScore() {
   confirmationNoElm.addEventListener('click', () => {
     confirmResetElm.innerHTML = '';
   });
-  
-
-  /*
-  wins = 0;
-  losses = 0;
-  ties = 0;
-  updateScoreElement();
-  */
 }
