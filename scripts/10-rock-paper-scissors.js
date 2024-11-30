@@ -51,13 +51,13 @@ document.querySelector('.js-scissors-button')
   });
 
 document.body.addEventListener('keydown', (event) => {
-  if (event.key === 'r' || 'R') {
+  if (event.key === 'r' || event.key === 'R') {
     playGame('rock');
-  } else if (event.key === 'p' || 'P') {
+  } else if (event.key === 'p' || event.key === 'P') {
     playGame('paper');
-  } else if (event.key === 's' || 'S') {
+  } else if (event.key === 's' || event.key === 'S') {
     playGame('scissors');
-  } else if (event.key === 'a' || 'A') {
+  } else if (event.key === 'a' || event.key === 'A') {
     autoPlay();
   } else if(event.key === 'Backspace') {
     confirmReset();
