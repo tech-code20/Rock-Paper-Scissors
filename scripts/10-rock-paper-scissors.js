@@ -120,6 +120,7 @@ Computer`;
 function updateScoreElement() {
   document.querySelector('.js-score')
     .innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
+  localStorage.setItem('score', JSON.stringify(score));
 }
 
 function pickComputerMove() {
