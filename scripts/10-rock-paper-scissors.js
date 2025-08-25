@@ -147,7 +147,7 @@ resetBtnElm.addEventListener('click', () => {
 
 const confirmResetElm = document.querySelector('.js-reset-confirmation');
 function confirmReset() {
-  confirmResetElm.innerHTML = `Are you sure you want to reset your score? <button class="js-reset-score-yes">yes</button> <button class="js-reset-score-no">No</button>`;
+  confirmResetElm.innerHTML = `Are you sure you want to reset your score? <br> <button class="js-reset-score-yes">Yes!</button> <button class="js-reset-score-no">No!</button>`;
   resetScore();
 }
 
