@@ -47,7 +47,8 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  margin-left: 70px;
+  margin-top: 15px;
+  margin-left: 90px;
   font-size: 15px;
 }
 .js-reset-score-no {
@@ -55,6 +56,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  margin-top: 15px;
   margin-left: 10px;
   font-size: 15px;
 }
