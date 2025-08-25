@@ -40,6 +40,7 @@ body {
   font-size: 15px;
   padding: 8px 15px;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .js-reset-score-yes {
