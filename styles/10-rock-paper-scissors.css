@@ -16,8 +16,8 @@ body {
 .move-button {
   background-color: transparent;
   border: 3px solid white;
-  width: 120px;
-  height: 120px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 60px;
   margin-right: 10px;
   cursor: pointer;
