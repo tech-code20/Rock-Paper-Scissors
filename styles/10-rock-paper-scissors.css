@@ -41,6 +41,7 @@ body {
   padding: 8px 15px;
   cursor: pointer;
   border-radius: 8px;
+  border: 3px solid yellow;
 }
 
 .js-reset-score-yes {
