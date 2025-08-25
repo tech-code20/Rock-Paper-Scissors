@@ -43,12 +43,18 @@ body {
 }
 
 .js-reset-score-yes {
-  background-color: red;
+  background-color: rgb(174, 33, 33);
   cursor: pointer;
   border: none;
+  border-radius: 5px;
+  margin-left: 70px;
+  font-size: 15px;
 }
 .js-reset-score-no {
-  background-color: green;
+  background-color: rgb(15, 131, 15);
   cursor: pointer;
   border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 15px;
 }
